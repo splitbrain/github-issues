@@ -1,0 +1,82 @@
+body {
+  font-family: Helvetica;
+  font-size: 13.34px;
+  line-height: 160%;
+}
+
+#header {
+  background: url(img/header_bg.gif) repeat-x;
+  border-bottom: 2px solid lightgray;
+  height: 80px;
+}
+
+#container {
+  background: url(img/background-white.png) no-repeat;
+  width: 920px;
+  margin-left:auto;
+  margin-right: auto;
+  position: relative;
+  top: -3em;
+  padding: 2em;
+}
+
+#output {
+  margin-top: 2em;
+}
+
+#footer {
+  width: 920px;
+  padding: 2em 2em 2em 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#load {
+  float: right;
+}
+
+dl {
+  width: 100%;
+  padding: 0.5em;
+}
+
+dh {
+  background: url(img/public.png) no-repeat;
+  width: 100%;
+  padding-left: 22px;
+}
+
+li {
+  background: url(img/issue.png) no-repeat;
+  width: 100%;
+  padding-left: 22px;
+  margin-left: 22px;
+  list-style: none;
+}
+
+h1 {
+  color: #0f0f0f;
+  font-weight: normal;
+  width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #4183c4;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 a {
+  font-weight: normal;
+}
+
+h1 a:hover {
+  text-decoration: none;
+}
